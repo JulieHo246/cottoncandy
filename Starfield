@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <h1>Starfield Character Guide</h1>
+        <script>
+            answer_1 = prompt ("What is your name?")
+            if (answer_1 != "Andre" || answer_1 != "Mark") {
+                alert ("You are not gay");
+            } else {
+                alert ("You are gay")
+            };
+
+            answer_2 = prompt ("What is your weight in lbs")
+            if (answer_2 > 150) {
+                alert ("You are fat")
+            } else {
+                alert ("You are so skinny!")
+            };
+            
+            answer_3 = prompt ("Have you had sex in the last 6 months?")
+            if (answer_3 != "yes" || answer_3 != "Y") {
+                alert ("you have AIDS!")
+            } else {
+                alert ("You must be lonely T_T")
+            };
+       
+        </script>
+    </body>
+</html>
